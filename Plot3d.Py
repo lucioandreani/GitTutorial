@@ -19,7 +19,7 @@ fig,ax = plt.subplots()
 	
 # 1D arrays for x and y coordinates
 	
-n_points = 500
+n_points = 1000
 	
 x_min,x_max = -5,5
 	
@@ -41,7 +41,7 @@ X, Y = np.meshgrid(X, Y)
 	
 R = np.sqrt(X**2 + Y**2)
 	
-Z = np.sin(0.75*R)
+Z = np.cos(0.75*R)
 	
  
 	
