@@ -41,7 +41,7 @@ X, Y = np.meshgrid(X, Y)
 	
 R = np.sqrt(X**2 + Y**2)
 	
-Z = np.cos(0.75*R)
+Z = np.sin(0.75*R)
 	
  
 	
